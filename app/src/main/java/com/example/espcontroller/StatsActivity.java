@@ -158,9 +158,9 @@ public class StatsActivity extends AppCompatActivity {
         stats.setVoltage(voltage);
         stats.setBattery(battery);
         stats.setRpm(rpm);
-        stats.setRpm(rpm2);
-        stats.setRpm(rpm3);
-        stats.setRpm(rpm4);
+        stats.setRpm2(rpm2);
+        stats.setRpm3(rpm3);
+        stats.setRpm4(rpm4);
 
         reference.push().setValue(stats);
         Toast.makeText(this, "Saved successfully", Toast.LENGTH_SHORT).show();

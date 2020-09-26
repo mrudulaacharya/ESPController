@@ -64,7 +64,7 @@
     </RelativeLayout>
 
     <RelativeLayout
-        android:id="@+id/row_rpm1"
+        android:id="@+id/row_rpm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"
